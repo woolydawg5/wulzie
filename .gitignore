@@ -1,0 +1,12 @@
+build/
+*.o
+*.a
+*.wasm
+*.fwsc
+*.bin
+!docs/**
+out/
+*.wav
+!tests/golden/*.wav
+.DS_Store
+Thumbs.db
