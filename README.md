@@ -57,10 +57,10 @@ Wulzie is a WulWorks project. Its look comes from the WulWorks house style guide
 focus, terminal green for confirmed states, and hardware that reads as a real object you could
 pick up.
 
-**How Wulzie modifies that style:** the FM-1's screen is reported to be a **monochrome**
-white-on-black LCD. On the device, the cyber-vaporwave theme is expressed through 1-bit pixel art
-(space and alien icons) and motion, not colour. The full neon palette lives in the simulator and
-the companion app.
+**How Wulzie modifies that style:** the FM-1 has a small colour screen and very little memory, so
+on the device the cyber-vaporwave theme becomes neon pixel art: space and alien icons in purple,
+blue and green, drawn from a small palette. The simulator and the companion app carry the full
+hardware look.
 
 ## Credits and learning sources
 

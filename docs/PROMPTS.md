@@ -16,3 +16,11 @@ new directives here in the same change as the work they ask for. Never paraphras
 ## 2026-11-10 — where the code lives
 
 > Separate public repo
+
+## 2026-11-10 — publishing it
+
+> Yes, create it
+
+## 2026-11-10 — correcting the screen
+
+> the fm-1 screen is not black and white, there's colors

@@ -36,12 +36,12 @@ can and turns `REPORTED` into `VERIFIED` or `WRONG`.
 
 | Fact | Status | Source |
 |---|---|---|
-| **White-on-black LCD** | DOCUMENTED | Hortator |
-| Resolution | UNKNOWN | — |
+| **Colour screen** | VERIFIED (2026-11-10, Wooly looking at his own unit) | an earlier draft called it monochrome, misreading Hortator's "true white-on-black LCD", which appears to describe a display theme |
+| Resolution and colour depth | UNKNOWN | — Phase 0 finds these in the SLOOP/Felucca display code |
 
-⚠️ **The neon theme can't live on the device screen** if it's monochrome. On the FM-1 the
-cyber-vaporwave look shows up as space/alien pixel icons and motion. The colour lives in the
-simulator, the companion app and any LEDs that turn out to be coloured.
+The neon theme can live **on the device itself**. The limit is memory, not colour: a full colour
+frame may not fit comfortably in ~96 KiB of RAM (for example, 320×240 at 16 bits per pixel would
+be 150 KiB). So the screen may have to be drawn in strips. Phase 0 settles this.
 
 ## Audio
 

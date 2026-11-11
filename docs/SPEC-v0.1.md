@@ -24,7 +24,8 @@ Status: **draft, 2026-11-10.** Items marked ⚠️ depend on Phase 0 facts we do
   produces the same samples and the same screen, on every platform. That's what makes testing
   real.
 - **Core entry points:** `wz_init()`, `wz_event(ev)` (key/button/knob/MIDI), `wz_audio(block)`
-  (fills N stereo frames), `wz_draw(fb)` (fills a 1-bit framebuffer), `wz_tick(ms)`.
+  (fills N stereo frames), `wz_draw(fb)` (draws the colour screen using a small neon palette), `wz_tick(ms)`.
+  ⚠️ Screen size, colour depth and whether it draws whole frames or strips come from Phase 0.
 - **All memory is static.** Sizes are fixed at compile time, and a build fails if they exceed the
   FM-1 budget.
 - ⚠️ **Number format:** float or fixed-point depends on whether the pi32v2 has a usable FPU. Phase 0
@@ -35,7 +36,7 @@ Status: **draft, 2026-11-10.** Items marked ⚠️ depend on Phase 0 facts we do
 
 | # | Feature | Detail |
 |---|---|---|
-| F1 | **Boot** | 1-bit splash screen: a small alien, "WULZIE v0.1", then the Play screen. |
+| F1 | **Boot** | Neon splash screen: a small alien in purple, blue and green, "WULZIE v0.1", then the Play screen. |
 | F2 | **Input test page** | Every key, button and knob drawn on screen, lighting up live. Also the first thing to check when a control seems dead. |
 | F3 | **One voice** | Mono: saw + square sub oscillator, 2-pole low-pass filter, ADSR amp envelope, glide. Keys play notes; OCT−/OCT+ shift octaves. Knobs: **1** cutoff · **2** resonance · **3** detune (a second saw: the reese seed) · **4** glide. |
 | F4 | **Diagnostics overlay** | On screen, never in a console: CPU load %, peak CPU, RAM used/free, audio underrun count, firmware version. Toggled by a button combo. |
