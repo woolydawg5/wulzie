@@ -30,7 +30,9 @@ can and turns `REPORTED` into `VERIFIED` or `WRONG`.
 | **KNOB 1–4** | DOCUMENTED | SLOOP |
 | SELECT, ALGORITHM, PRESETS, MASTER volume knobs; whether they are endless encoders or pots | DOCUMENTED (names) · UNKNOWN (type) | Hortator |
 | Buttons: HOME, EDIT, SEQ, FX, ARP, LFO, GLO, SAVE, SCL/SEL, OCT−, OCT+, PLAY, REC | DOCUMENTED | Felucca / Hortator |
-| Button backlight, 3 levels; per-track colours in SLOOP (blue/green/yellow/orange) | DOCUMENTED (levels) · UNKNOWN (whether LEDs are RGB) | SLOOP |
+| Button lights are **white only** | VERIFIED (2026-11-10, Wooly looking at his own unit) | so all colour has to come from the screen |
+| Button backlight has 3 brightness levels (LOW/MID/HIGH) | DOCUMENTED | SLOOP |
+| Whether each button light can be controlled on its own | UNKNOWN | — Phase 0 finds this in the SLOOP/Felucca code |
 
 ## Screen
 

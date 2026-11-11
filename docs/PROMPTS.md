@@ -24,3 +24,7 @@ new directives here in the same change as the work they ask for. Never paraphras
 ## 2026-11-10 — correcting the screen
 
 > the fm-1 screen is not black and white, there's colors
+
+## 2026-11-10 — the button lights
+
+> the button lights are just white

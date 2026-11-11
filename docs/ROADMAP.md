@@ -6,7 +6,7 @@ only when its tests pass on the host and in the simulator, and it has been run o
 
 | Phase | Version | Name | Delivers |
 |---|---|---|---|
-| 0 | — | **Safety bench** | WSL and the JieLi toolchain installed. SLOOP built from source and flashed (proves the pipeline). Round trip to the official firmware and back. Transporter steps read and written into `SAFETY.md`. Facts in `HARDWARE.md` checked on Wooly's unit (screen resolution, knob types, LED colours, FPU or not). |
+| 0 | — | **Safety bench** | WSL and the JieLi toolchain installed. SLOOP built from source and flashed (proves the pipeline). Round trip to the official firmware and back. Transporter steps read and written into `SAFETY.md`. Facts in `HARDWARE.md` checked on Wooly's unit (screen resolution and colour depth, knob types, per-button light control, FPU or not). |
 | 1 | **0.1** | **First Contact** | See [SPEC-v0.1.md](SPEC-v0.1.md): boot, live input test, one voice, on-screen diagnostics, a way back to official firmware, the simulator shell, the test harness, tutorial lessons 1–3. |
 | 2 | 0.2 | **Reese Engine** | The bass voice: a 3–7 saw supersaw/reese stack with detune spread and phase drift, a sub, a 2-pole/4-pole filter with drive, waveshaper/fold distortion, an LFO with tempo-synced wobble rates (1/4 to 1/32, triplets, dotted), mono/legato glide, macro knobs. A starter bank aimed at the reference tracks. |
 | 3 | 0.3 | **Growl Lab** | FM growls (2–4 operator), a formant/vowel filter ("talking" bass), comb filter, bit/rate crush, a modulation matrix with 2 LFOs and envelopes into anything. |
