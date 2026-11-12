@@ -29,7 +29,7 @@ only through a small hardware layer, and it's compiled three ways:
 | `platform/wasm` | the browser simulator (and later the WulWorks lab instrument) |
 | `platform/fm1` | the real firmware, via the JieLi AC79 SDK |
 
-Full plan: [docs/ROADMAP.md](docs/ROADMAP.md) · current spec: [docs/SPEC-v0.1.md](docs/SPEC-v0.1.md)
+Design rules: [docs/DESIGN.md](docs/DESIGN.md) · full plan: [docs/ROADMAP.md](docs/ROADMAP.md) · current spec: [docs/SPEC-v0.1.md](docs/SPEC-v0.1.md)
 · what we know about the hardware: [docs/HARDWARE.md](docs/HARDWARE.md).
 
 ## Why it's built this way

@@ -28,3 +28,7 @@ new directives here in the same change as the work they ask for. Never paraphras
 ## 2026-11-10 — the button lights
 
 > the button lights are just white
+
+## 2026-11-11 — first impressions of SLOOP
+
+> Things that I like about Sloop: The colorful interface, the arpeggio settings, the fact that I can have a loop going and tweak the sound live, the fact that I can have a loop going and still play the "keys" of an instrument that's looped. I like the reese bass sounds but would prefer more options for customization and on-the-fly sound tweaking to make new presets. I find the saving interface very confusing both for saving tracks/loops and modulations or settings. The sequencer interface is a little clunky but maybe I just need to get better at it. I was able to make some really great sounds with reese bass, phasers, arpeggio's and dubstep drumkits.
